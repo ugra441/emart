@@ -1,0 +1,32 @@
+{
+  "name": "emart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msboffl/emart.git"
+  },
+  "author": "Mareedu Saibabu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msboffl/emart/issues"
+  },
+  "homepage": "https://github.com/msboffl/emart#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node-sass": "^8.0.0",
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
